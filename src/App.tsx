@@ -4,7 +4,6 @@ function App() {
   return (
     <div>
       <Navbar></Navbar>
-      this is dashboard
     </div>
   );
 }
