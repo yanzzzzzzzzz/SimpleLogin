@@ -1,7 +1,7 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import Signup from './Signup';
-import Login from './Login';
+import React from 'react'
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
+import Signup from './Signup'
+import Login from './Login'
 import MainPage from './MainPage'
 function Navbar() {
   return (
@@ -19,12 +19,12 @@ function Navbar() {
       </ul>
 
       <Routes>
-          <Route path="/signup" element={<Signup />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/"  element={<MainPage />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<MainPage />} />
       </Routes>
     </Router>
-  );
+  )
 }
 
-export default Navbar;
+export default Navbar
